@@ -5,6 +5,7 @@ import TodoItem from "./TodoItem";
 
 const TodoList = () => {
   const todos = useSelector((state) => state.todos);
+  console.log("todos", todos);
 
   return (
     <ul>
